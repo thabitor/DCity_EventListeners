@@ -5,7 +5,7 @@ const secondNumber = userInput[1]
 const resultHTML = userInput[2]
 const buttonHTML = document.getElementById('button')
 
-let result
+let result;
 
 buttonHTML.addEventListener ("click", () => {
     console.log(userOperator.value)
@@ -31,7 +31,5 @@ buttonHTML.addEventListener ("click", () => {
         parseInt(secondNumber.value)
         resultHTML.value = result
     }
-
-    resultHTML.innerText = result
 } )
 
